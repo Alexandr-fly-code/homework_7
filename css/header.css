@@ -1,0 +1,41 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+	margin-bottom: 100px;
+}
+header ul {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+
+}
+menu li {
+	margin-left: 50px;
+}
+menu li:nth-child(1) {
+	margin-left: 0px;
+}
+menu li a {
+	text-decoration: none;
+	color: #000;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: 600;
+	font-size: 14px;
+}
+menu li a:hover {
+	color: #fed136;
+	transition: all .2s ease;
+}
+.logo {
+	margin-top: 23px;
+
+}
+.logo a {
+	font-family: 'Bungee Inline', sans-serif;
+	font-weight: 700;
+	text-decoration: none;
+	color: #fed136;
+	font-size: 24px;
+}
+
